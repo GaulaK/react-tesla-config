@@ -1,38 +1,74 @@
-.App {
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 30px 0;
+  font-weight: bold;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 20px 0;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.options-selector {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+/* ----------- Button ----------- */
+/* ----------- Button ----------- */
+/* ----------- Button ----------- */
+
+.button-on,
+.button-off {
+  width: 80%;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 18px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: white;
+  border-color: #e3e3e3;
+  border-style: solid;
+}
+
+.button-on {
+  border: 1px solid rgb(0, 119, 255);
+  font-weight: bold;
+}
+
+/* ----------- Price Section ----------- */
+/* ----------- Price Section ----------- */
+/* ----------- Price Section ----------- */
+
+.price {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.price p {
+  font-size: 30px;
+  width: 125px;
+  text-align: end;
+}
+
+.price button {
+  border: 2px solid #2782d1;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  background-color: #2d91e1;
+  border-radius: 10px;
+  font-size: 24px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
